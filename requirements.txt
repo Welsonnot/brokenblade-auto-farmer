@@ -1,0 +1,21 @@
+# Core dependencies
+mss>=9.0.1
+opencv-python>=4.8.0
+pynput>=1.7.6
+pydirectinput>=1.0.4
+Pillow>=10.0.0
+
+# Machine learning
+torch>=2.1.0
+torchvision>=0.16.0
+stable-baselines3>=2.2.0
+gymnasium>=0.29.0
+
+# OCR (optional — kill counter detection)
+# pytesseract>=0.3.10
+# Also requires the Tesseract binary:
+#   https://github.com/UB-Mannheim/tesseract/wiki
+#   Default path expected: C:\Program Files\Tesseract-OCR\tesseract.exe
+
+# YOLO object detection (optional — legacy detector)
+# ultralytics>=8.0.0

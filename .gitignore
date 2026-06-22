@@ -1,0 +1,48 @@
+# Training data -- too large for git, personal footage
+recordings/
+yolo_data/
+logs/
+runs/
+
+# Model weights -- large binaries, not versioned
+models/*.pth
+models/*.pt
+models/*.zip
+models/*.tmp
+*.pth
+*.pt
+*.tmp
+
+# Debug / diagnostic images generated at runtime
+obs_view.png
+obs_sample_region.png
+cal_*.png
+*.debug.png
+
+# Backup / corrupt model files
+*.corrupt.zip
+*.bak
+
+# Ollama / local LLM caches
+Ollama/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user

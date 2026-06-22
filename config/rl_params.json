@@ -1,0 +1,22 @@
+{
+  "_comment": "Safe tunable parameters. Qwen advisor writes here. game_env.py reads at startup.",
+  "rnd_enabled":         true,
+  "rnd_beta":            0.15,
+  "rnd_lr":              0.0001,
+  "rnd_output_dim":      64,
+  "LOST_WINDOW_S":       120.0,
+  "OCEAN_FAIL_STEPS":    30,
+  "AIR_ATTACK_GRACE":    8,
+  "AIR_ATTACK_BASE":     0.05,
+  "AIR_ATTACK_MAX_MUL":  4,
+  "RESET_SETTLE_S":      2.0,
+  "OCEAN_PENALTY":       1.0,
+  "OCEAN_FAIL_PENALTY":  20.0,
+  "_ocean_comment":        "Two-branch OR: Branch-A = bright day ocean, Branch-B = dark night ocean",
+  "ocean_bright_bri_min":  85.0,
+  "ocean_bright_var_max":  35.0,
+  "ocean_bright_bias_min": 38.0,
+  "ocean_bright_gr_min":   15.0,
+  "ocean_dark_bri_max":    60.0,
+  "ocean_dark_var_max":     8.0
+}

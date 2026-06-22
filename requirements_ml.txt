@@ -1,0 +1,7 @@
+mss
+opencv-python
+pynput
+torch
+torchvision
+pydirectinput
+Pillow
